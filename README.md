@@ -85,7 +85,7 @@ Due to platform restrictions, the full interactive dashboard is **not available 
 
 ---
 
-## Insights by Objective
+## 6. Insights by Objective
 
 ### Objective 1: Crime Trends & Severity
 

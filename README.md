@@ -94,15 +94,11 @@ Due to platform restrictions, the full interactive dashboard is **not available 
 - **Dorchester** and **Roxbury** reported the highest felony and misdemeanor cases.
 - **Part 3 crimes** (serious offenses) make up **98.53%** of all incidents, requiring focused attention on severe cases.
 
----
-
 ### Objective 2: Crime Hotspots
 
 - **Roxbury (11.58k)** and **Dorchester (11.25k)** recorded the highest crime volumes.
 - Crime incidents are heavily clustered across all districts, with central and southeast South Boston showing the most density.
 - Hotspots may relate to **population density** and **socio-economic factors**.
-
----
 
 ### Objective 3: Temporal and Seasonal Trends
 

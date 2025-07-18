@@ -2,8 +2,32 @@
 
 This project analyzes and visualizes crime data to understand public safety patterns in South Boston using Microsoft Excel for data preparation and Power BI for interactive dashboard development.
 
-**Dashboard Access:**  
-[View Dashboard (Power BI)](../../../:u:/g/personal/2021899552_isiswa_uitm_edu_my/Ed2sVh1pQCJGkFRU27DKFiABqU-Oa1pJzCVGjH9xFB-7GQ?e=bdHNod)
+## Dashboard Access
+
+Due to platform restrictions, the full interactive dashboard is **not available for direct web viewing**. However, you may:
+
+- **Download the complete Power BI dashboard (.pbix):**  
+  [Download from OneDrive](https://xuliujun1-my.sharepoint.com/:u:/g/personal/75900_office365proplus_co/EZ-nUDGe14lMr8gBX1gehOcB5QyUVGwvllEJu_9uGMjoXg?e=5QJ4oL)  
+  *(Requires Power BI Desktop to open: https://powerbi.microsoft.com/desktop)*
+
+- **Preview dashboard interactivity through demo GIFs below:**
+
+## Dashboard Interactivity Demos
+
+### Authority Dashboard 1: Crime by Time & Severity  
+Shows filtering by district and time-based trends.
+
+![Authority Dashboard 1 Demo](assets/authority1_demo.gif)
+
+### Authority Dashboard 2: Crime Hotspot Map  
+Shows map visuals and slicer interaction.
+
+![Authority Dashboard 2 Demo](assets/authority2_demo.gif)
+
+### Public Dashboard: Seasonal and Monthly Crime Patterns  
+Demonstrates monthly trend analysis and seasonal drill-down.
+
+![Public Dashboard Demo](assets/public_demo.gif)
 
 ## Project Summary
 

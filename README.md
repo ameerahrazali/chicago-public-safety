@@ -1,49 +1,20 @@
 # Boston Public Safety Dashboard (2016–2017)
 
-This project analyzes and visualizes crime data to understand public safety patterns in South Boston using Microsoft Excel for data preparation and Power BI for interactive dashboard development.
+Brief one-liner about the project:  
+This interactive dashboard explores crime trends in South Boston (2016–2017), using Excel and Power BI to analyze severity, timing, and location patterns in public safety.
 
 ---
 
-## Dashboard Access
+## 1. Project Summary
 
-Due to platform restrictions, the full interactive dashboard is **not available for direct web viewing**. However, you may:
-
-- **Download the complete Power BI dashboard (.pbix):**  
-  [Download from OneDrive](https://xuliujun1-my.sharepoint.com/:u:/g/personal/75900_office365proplus_co/EZ-nUDGe14lMr8gBX1gehOcB5QyUVGwvllEJu_9uGMjoXg?e=5QJ4oL)  
-  *(Requires Power BI Desktop to open: https://powerbi.microsoft.com/desktop)*
-
-- **Preview dashboard interactivity through demo GIFs below:**
+- **Type:** Final-year academic group project
+- **Objective:** Provide actionable insights into public safety using crime data
+- **Tools:** Excel (EDA & data prep), Power BI (dashboard development)
+- **Dataset:** [Kaggle – Crimes in Boston](https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston)
 
 ---
 
-## Dashboard Interactivity Demos
-
-### Authority Dashboard 1: Crime by Time & Severity  
-Shows filtering by district and time-based trends.  
-![Authority Dashboard 1 Demo](assets/authority1_demo.gif)
-
-### Authority Dashboard 2: Crime Hotspot Map  
-Shows map visuals and slicer interaction.  
-![Authority Dashboard 2 Demo](assets/authority2_demo.gif)
-
-### Public Dashboard: Seasonal and Monthly Crime Patterns  
-Demonstrates monthly trend analysis and seasonal drill-down.  
-![Public Dashboard Demo](assets/public_demo.gif)
-
----
-
-## Project Summary
-
-- **Project Type:** Final-year academic group project for a data analytics course
-- **Objective:** Provide insights into crime frequency, severity, temporal patterns, and district-level trends in South Boston
-- **Data Source:** [Kaggle – Crimes in Boston](https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston)
-- **Tools Used:**
-  - Microsoft Excel (EDA, feature engineering)
-  - Power BI (dashboard development)
-
----
-
-## Team & Roles
+## 2. Team & Roles
 
 | Name                   | Responsibility                        |
 |------------------------|----------------------------------------|
@@ -54,84 +25,127 @@ Demonstrates monthly trend analysis and seasonal drill-down.
 
 ---
 
-## Research Objectives & Questions
+## 3. Research Objectives & Questions
 
-| Objective                     | Research Questions |
-|-------------------------------|--------------------|
+| Objective | Research Questions |
+|----------|--------------------|
 | **1. Crime Trends & Severity** | - What are the peak hours for crime?<br>- Are there yearly crime trends?<br>- How does crime severity vary by district?<br>- Which UCR categories are prevalent by district? |
-| **2. Crime Hotspots**         | - What are the most common districts for crimes? |
+| **2. Crime Hotspots** | - What are the most common districts for crimes? |
 | **3. Temporal & Seasonal Analysis** | - How do monthly crime rates vary?<br>- What is the 24-hour crime distribution?<br>- Which districts report the highest crime volume?<br>- Are certain months/seasons safer?<br>- How does crime frequency vary overall? |
 
 ---
 
-## Data Preparation
+## 4. Data Preparation
 
-- Raw dataset: Over 300,000 rows
-- Final filtered dataset:
+- **Initial size:** 300k+ records
+- **Filtered by:**
   - **Years:** 2016–2017
   - **Districts:** South Boston, Roxbury, Dorchester, Mattapan, Hyde Park, South End, Jamaica Plain
-  - **Focus:** Public safety-related crimes only
-  - **Rows Used:** 56,109
+  - **Focus:** Public safety-related offenses only
+  - **Final rows used:** 56,109
 
 ### Derived Attributes (Created in Excel)
 
-| New Attribute     | Description                             |
-|------------------|------------------------------------------|
-| `offense_severity` | Crime severity level                   |
-| `district_name`   | Full district name                      |
-| `occurred_date`   | Date of occurrence                      |
-| `occurred_time`   | Time of occurrence                      |
-| `season`          | Derived season (Winter, Spring, Summer, Autumn) |
-| `type_of_day`     | Weekday or Weekend classification       |
+| Attribute         | Description                              |
+|------------------|-------------------------------------------|
+| `offense_severity` | Severity level (felony, misdemeanor, petty) |
+| `district_name`   | Full district name                       |
+| `occurred_date`   | Date of occurrence                       |
+| `occurred_time`   | Time of occurrence                       |
+| `season`          | Winter, Spring, Summer, Autumn           |
+| `type_of_day`     | Weekday or Weekend                       |
 
 ---
 
-## Dashboard Overview
+## 5. Dashboard Access
 
-Three Power BI dashboards were created, aligned to the three research objectives:
+Due to platform restrictions, the full interactive dashboard is **not available for public web viewing**.
 
-### Authority Dashboard 1: Crime by Time & Severity (Objective 1)
-- **Slicers:** District, Year
-- **Visuals:**
-  - Total crime cases (number card)
-  - Crime by time of day (line chart)
-  - Crime frequency over years (line chart)
-  - Crime severity by district (bar chart)
-  - Crime distribution by UCR Part (pie chart)
+- **Download Full Dashboard (.pbix):**  
+  [OneDrive Link](https://xuliujun1-my.sharepoint.com/:u:/g/personal/75900_office365proplus_co/EZ-nUDGe14lMr8gBX1gehOcB5QyUVGwvllEJu_9uGMjoXg?e=5QJ4oL)  
+  *(Requires [Power BI Desktop](https://powerbi.microsoft.com/desktop) to open)*
 
-### Authority Dashboard 2: Crime Hotspot Map (Objective 2)
-- **Slicers:** Year, District
-- **Visuals:**
-  - Total crime cases (number card)
-  - District-level crime map (map visual)
+- **View Interactivity Demos (GIFs):**
 
-### Public Dashboard: Temporal and Seasonal Trends (Objective 3)
-- **Slicers:** Year, District, Type of Day
-- **Visuals:**
-  - Monthly crime trends (bar chart)
-  - 24-hour crime distribution (line chart)
-  - Crime by district (bar chart)
-  - Crime by season (bar chart)
-  - Crime type distribution (tree map)
+### Dashboard Demos
+
+#### Authority Dashboard 1 – Crime by Time & Severity
+![Authority Dashboard 1 Demo](assets/authority1_demo.gif)
+
+#### Authority Dashboard 2 – Crime Hotspot Map
+![Authority Dashboard 2 Demo](assets/authority2_demo.gif)
+
+#### Public Dashboard – Temporal & Seasonal Trends
+![Public Dashboard Demo](assets/public_demo.gif)
 
 ---
 
-## Key Features
+## 6. Dashboard Overview
 
-- Interactive slicers for targeted analysis
-- District and time-based filtering
-- EDA-informed visual selection
-- Focused on actionable public safety insights
+### Dashboard 1: Crime by Time & Severity
+- Slicers: Year, District
+- Visuals: Crime totals, time-of-day trends, annual frequency, severity by district, UCR Part breakdown
+
+### Dashboard 2: Crime Hotspots
+- Slicers: Year, District
+- Visuals: Crime totals, district-level map of incidents
+
+### Dashboard 3: Monthly, Seasonal, and Daily Trends
+- Slicers: Year, District, Type of Day
+- Visuals: Monthly frequency, 24-hour distribution, seasonality, common incident types
 
 ---
 
-## Key Insights
+## Insights by Objective
 
-- Evening hours showed peak crime activity
-- Crime trends shifted slightly between 2016 and 2017
-- Certain districts had consistently higher severity scores
-- Weekends saw slightly higher crime rates
-- Winter months showed reduced activity
+### Objective 1: Crime Trends & Severity
+
+This objective focuses on analyzing crime frequency by time, year, severity, and offense categories.
+
+- **Crime by Hour:**  
+  A line chart visualizes crime frequency throughout the day. The most crimes occur between **10 AM and 10 PM**, peaking around **4 PM**, while the fewest occur at **4 AM**. This suggests a correlation between crime rates and public activity.
+
+- **Yearly Trends:**  
+  A time-series chart shows daily crime counts from **January 2016 to December 2017**. The highest spike was on **September 15** with **131 cases**, while the lowest occurred between **October 1 and 16**, with only **1 to 5 cases daily**. However, no strong long-term increasing or decreasing trend is observed, suggesting a relatively stable crime rate during this period.
+
+- **Crime Severity by District:**  
+  A bar chart compares felony, misdemeanor, and petty offenses across districts. **Dorchester and Roxbury** report the highest numbers of felonies and misdemeanors, indicating more severe crime issues. Other districts predominantly show petty offenses.
+
+- **UCR Classification:**  
+  A pie chart illustrates the crime distribution by **UCR Part**. **Part 3 crimes** (serious offenses such as violent and property crimes) dominate with **98.53%**, while **Part 2 crimes** (less serious) make up only **1.47%**. This indicates a need for focused attention on high-severity crimes in the region.
+
+---
+
+### Objective 2: Crime Hotspots
+
+The second dashboard maps crime distribution to identify hotspots across South Boston.
+
+- **Geographical Clusters:**  
+  A crime map shows dense clustering across **all districts**, especially in **Roxbury (11.58k cases)** and **Dorchester (11.25k cases)**. Other notable areas include **Mattapan (9.2k)**, **South End (8.7k)**, and **South Boston (5.8k)**.
+
+- **Hotspot Concentration:**  
+  The highest crime densities appear in **central and south-eastern parts** of South Boston. These patterns suggest possible links to **population density or socio-economic conditions**, informing potential areas for intervention and resource allocation.
+
+---
+
+### Objective 3: Temporal and Seasonal Trends
+
+The third objective focuses on monthly, seasonal, and hourly crime patterns to improve public awareness.
+
+- **Monthly Trends:**  
+  A bar chart shows that crime rates are **highest in May** and **lowest in October**, following a nearly linear trend with slight fluctuations across months.
+
+- **24-Hour Crime Pattern:**  
+  A line chart reveals a higher risk of crime during **daylight and early evening**, especially around **4 PM**. The safest hours are between **midnight and 4 AM**.
+
+- **District Safety Levels:**  
+  Among the districts, **Roxbury has the highest crime rate**, while **Jamaica Plain is consistently the safest**.
+
+- **Seasonal Distribution:**  
+  **Roxbury and Dorchester** experience higher crime counts in **autumn and spring**, whereas **Jamaica Plain** remains relatively safe across all seasons.
+
+- **Common Incident Types:**  
+  A tree map shows the most frequent incidents are **motor vehicle accidents** and **medical assistance**, followed by **investigations, towing, property loss**, and **warrant arrests**—highlighting not only crime but broader public safety needs.
 
 ---
 

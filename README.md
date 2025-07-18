@@ -89,52 +89,28 @@ Due to platform restrictions, the full interactive dashboard is **not available 
 
 ### Objective 1: Crime Trends & Severity
 
-This objective focuses on analyzing crime frequency by time, year, severity, and offense categories.
-
-- **Crime by Hour:**  
-  A line chart visualizes crime frequency throughout the day. The most crimes occur between **10 AM and 10 PM**, peaking around **4 PM**, while the fewest occur at **4 AM**. This suggests a correlation between crime rates and public activity.
-
-- **Yearly Trends:**  
-  A time-series chart shows daily crime counts from **January 2016 to December 2017**. The highest spike was on **September 15** with **131 cases**, while the lowest occurred between **October 1 and 16**, with only **1 to 5 cases daily**. However, no strong long-term increasing or decreasing trend is observed, suggesting a relatively stable crime rate during this period.
-
-- **Crime Severity by District:**  
-  A bar chart compares felony, misdemeanor, and petty offenses across districts. **Dorchester and Roxbury** report the highest numbers of felonies and misdemeanors, indicating more severe crime issues. Other districts predominantly show petty offenses.
-
-- **UCR Classification:**  
-  A pie chart illustrates the crime distribution by **UCR Part**. **Part 3 crimes** (serious offenses such as violent and property crimes) dominate with **98.53%**, while **Part 2 crimes** (less serious) make up only **1.47%**. This indicates a need for focused attention on high-severity crimes in the region.
+- Crimes occur most frequently between **10 AM and 10 PM**, peaking at **4 PM**; early mornings see the fewest.
+- Crime rates from **2016–2017** remained stable, with no strong long-term trend.
+- **Dorchester** and **Roxbury** reported the highest felony and misdemeanor cases.
+- **Part 3 crimes** (serious offenses) make up **98.53%** of all incidents, requiring focused attention on severe cases.
 
 ---
 
 ### Objective 2: Crime Hotspots
 
-The second dashboard maps crime distribution to identify hotspots across South Boston.
-
-- **Geographical Clusters:**  
-  A crime map shows dense clustering across **all districts**, especially in **Roxbury (11.58k cases)** and **Dorchester (11.25k cases)**. Other notable areas include **Mattapan (9.2k)**, **South End (8.7k)**, and **South Boston (5.8k)**.
-
-- **Hotspot Concentration:**  
-  The highest crime densities appear in **central and south-eastern parts** of South Boston. These patterns suggest possible links to **population density or socio-economic conditions**, informing potential areas for intervention and resource allocation.
+- **Roxbury (11.58k)** and **Dorchester (11.25k)** recorded the highest crime volumes.
+- Crime incidents are heavily clustered across all districts, with central and southeast South Boston showing the most density.
+- Hotspots may relate to **population density** and **socio-economic factors**.
 
 ---
 
 ### Objective 3: Temporal and Seasonal Trends
 
-The third objective focuses on monthly, seasonal, and hourly crime patterns to improve public awareness.
-
-- **Monthly Trends:**  
-  A bar chart shows that crime rates are **highest in May** and **lowest in October**, following a nearly linear trend with slight fluctuations across months.
-
-- **24-Hour Crime Pattern:**  
-  A line chart reveals a higher risk of crime during **daylight and early evening**, especially around **4 PM**. The safest hours are between **midnight and 4 AM**.
-
-- **District Safety Levels:**  
-  Among the districts, **Roxbury has the highest crime rate**, while **Jamaica Plain is consistently the safest**.
-
-- **Seasonal Distribution:**  
-  **Roxbury and Dorchester** experience higher crime counts in **autumn and spring**, whereas **Jamaica Plain** remains relatively safe across all seasons.
-
-- **Common Incident Types:**  
-  A tree map shows the most frequent incidents are **motor vehicle accidents** and **medical assistance**, followed by **investigations, towing, property loss**, and **warrant arrests**—highlighting not only crime but broader public safety needs.
+- **May** sees the highest monthly crime rate; **October** the lowest.
+- Risk is highest during the day, particularly around **4 PM**, and lowest from **12–4 AM**.
+- **Jamaica Plain** is consistently the safest district; **Roxbury** has the highest rate.
+- **Autumn and spring** show increased activity in Roxbury and Dorchester.
+- Top incidents include **vehicle accidents**, **medical assistance**, and **investigations**—reflecting both criminal and public safety concerns.
 
 ---
 

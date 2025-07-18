@@ -14,18 +14,7 @@ This interactive dashboard explores crime trends in South Boston (2016–2017), 
 
 ---
 
-## 2. Team & Roles
-
-| Name                   | Responsibility                        |
-|------------------------|----------------------------------------|
-| Wan Ameerah (author)   | Exploratory Data Analysis (EDA)        |
-| Ain Aqilah             | Exploratory Data Analysis (EDA)        |
-| Syamimi Izzati         | Data Cleaning & Filtering              |
-| Nadia Elysya           | Dashboard Design & Visualization (Power BI) |
-
----
-
-## 3. Research Objectives & Questions
+## 2. Research Objectives & Questions
 
 | Objective | Research Questions |
 |----------|--------------------|
@@ -35,7 +24,7 @@ This interactive dashboard explores crime trends in South Boston (2016–2017), 
 
 ---
 
-## 4. Data Preparation
+## 3. Data Preparation
 
 - **Initial size:** 300k+ records
 - **Filtered by:**
@@ -57,7 +46,7 @@ This interactive dashboard explores crime trends in South Boston (2016–2017), 
 
 ---
 
-## 5. Dashboard Access
+## 4. Dashboard Access
 
 Due to platform restrictions, the full interactive dashboard is **not available for public web viewing**.
 
@@ -80,7 +69,7 @@ Due to platform restrictions, the full interactive dashboard is **not available 
 
 ---
 
-## 6. Dashboard Overview
+## 5. Dashboard Overview
 
 ### Dashboard 1: Crime by Time & Severity
 - Slicers: Year, District

@@ -2,6 +2,8 @@
 
 This project analyzes and visualizes crime data to understand public safety patterns in South Boston using Microsoft Excel for data preparation and Power BI for interactive dashboard development.
 
+---
+
 ## Dashboard Access
 
 Due to platform restrictions, the full interactive dashboard is **not available for direct web viewing**. However, you may:
@@ -12,22 +14,23 @@ Due to platform restrictions, the full interactive dashboard is **not available 
 
 - **Preview dashboard interactivity through demo GIFs below:**
 
+---
+
 ## Dashboard Interactivity Demos
 
 ### Authority Dashboard 1: Crime by Time & Severity  
-Shows filtering by district and time-based trends.
-
+Shows filtering by district and time-based trends.  
 ![Authority Dashboard 1 Demo](assets/authority1_demo.gif)
 
 ### Authority Dashboard 2: Crime Hotspot Map  
-Shows map visuals and slicer interaction.
-
+Shows map visuals and slicer interaction.  
 ![Authority Dashboard 2 Demo](assets/authority2_demo.gif)
 
 ### Public Dashboard: Seasonal and Monthly Crime Patterns  
-Demonstrates monthly trend analysis and seasonal drill-down.
-
+Demonstrates monthly trend analysis and seasonal drill-down.  
 ![Public Dashboard Demo](assets/public_demo.gif)
+
+---
 
 ## Project Summary
 
@@ -38,22 +41,28 @@ Demonstrates monthly trend analysis and seasonal drill-down.
   - Microsoft Excel (EDA, feature engineering)
   - Power BI (dashboard development)
 
+---
+
 ## Team & Roles
 
-| Name             | Responsibility                        |
-|------------------|----------------------------------------|
-| Wan Ameerah (author)     | Exploratory Data Analysis (EDA)        |
-| Ain Aqilah       | Exploratory Data Analysis (EDA)        |
-| Syamimi Izzati   | Data Cleaning & Filtering              |
-| Nadia Elysya     | Dashboard Design & Visualization (Power BI) |
+| Name                   | Responsibility                        |
+|------------------------|----------------------------------------|
+| Wan Ameerah (author)   | Exploratory Data Analysis (EDA)        |
+| Ain Aqilah             | Exploratory Data Analysis (EDA)        |
+| Syamimi Izzati         | Data Cleaning & Filtering              |
+| Nadia Elysya           | Dashboard Design & Visualization (Power BI) |
+
+---
 
 ## Research Objectives & Questions
 
-| Objective | Research Questions |
-|----------|--------------------|
+| Objective                     | Research Questions |
+|-------------------------------|--------------------|
 | **1. Crime Trends & Severity** | - What are the peak hours for crime?<br>- Are there yearly crime trends?<br>- How does crime severity vary by district?<br>- Which UCR categories are prevalent by district? |
-| **2. Crime Hotspots** | - What are the most common districts for crimes? |
+| **2. Crime Hotspots**         | - What are the most common districts for crimes? |
 | **3. Temporal & Seasonal Analysis** | - How do monthly crime rates vary?<br>- What is the 24-hour crime distribution?<br>- Which districts report the highest crime volume?<br>- Are certain months/seasons safer?<br>- How does crime frequency vary overall? |
+
+---
 
 ## Data Preparation
 
@@ -74,6 +83,8 @@ Demonstrates monthly trend analysis and seasonal drill-down.
 | `occurred_time`   | Time of occurrence                      |
 | `season`          | Derived season (Winter, Spring, Summer, Autumn) |
 | `type_of_day`     | Weekday or Weekend classification       |
+
+---
 
 ## Dashboard Overview
 
@@ -103,12 +114,16 @@ Three Power BI dashboards were created, aligned to the three research objectives
   - Crime by season (bar chart)
   - Crime type distribution (tree map)
 
+---
+
 ## Key Features
 
 - Interactive slicers for targeted analysis
 - District and time-based filtering
 - EDA-informed visual selection
 - Focused on actionable public safety insights
+
+---
 
 ## Key Insights
 
@@ -118,3 +133,6 @@ Three Power BI dashboards were created, aligned to the three research objectives
 - Weekends saw slightly higher crime rates
 - Winter months showed reduced activity
 
+---
+
+_This project was developed as part of a final-year academic coursework in data analytics, focusing on real-world data storytelling and visualization._

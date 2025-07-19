@@ -105,7 +105,7 @@ Due to platform restrictions, the full interactive dashboard is **not available 
 - Risk is highest during the day, particularly around **4 PM**, and lowest from **12–4 AM**.
 - **Jamaica Plain** is consistently the safest district; **Roxbury** has the highest rate.
 - **Autumn and spring** show increased activity in Roxbury and Dorchester.
-- Top incidents include **vehicle accidents**, **medical assistance**, and **investigations**—reflecting both criminal and public safety concerns.
+- Top incidents include **vehicle accidents**, **medical assistance**, and **investigations** witnessed both criminal and public safety concerns.
 
 ---
 

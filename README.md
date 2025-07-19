@@ -1,6 +1,5 @@
 # Boston Public Safety Dashboard (2016–2017)
 
-Brief one-liner about the project:  
 This interactive dashboard explores crime trends in South Boston (2016–2017), using Excel and Power BI to analyze severity, timing, and location patterns in public safety.
 
 ---
